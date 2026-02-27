@@ -1,11 +1,11 @@
-# go-envconf
+# envconf
 
 Lightweight Go library to load typed config structs from environment variables and `.env` files.
 
 ## Install
 
 ```bash
-go get github.com/serajhqi/go-envconf
+go get github.com/serajhqi/envconf
 ```
 
 ## Quick Start
@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"time"
 
-	envconf "github.com/serajhqi/go-envconf"
+	"github.com/serajhqi/envconf"
 )
 
 type Config struct {

@@ -1,3 +1,3 @@
-module github.com/serajhqi/go-envconf
+module github.com/serajhqi/envconf
 
 go 1.25.0
